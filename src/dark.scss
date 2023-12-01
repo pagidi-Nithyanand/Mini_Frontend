@@ -1,0 +1,23 @@
+$primary: rgb(102, 153, 255);
+$secondary: #bf95f9;
+// $accent: #ffb86b;
+// $neutral: #414558;
+// $base: #272935;
+$success: #52fa7c;
+$info: #8be8fd;
+$warning: #f1fa89;
+$danger: #ff5757;
+$light: #f8f8f8;
+$dark: #1e1e1e;
+@import "bootstrap/scss/bootstrap.scss";
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);

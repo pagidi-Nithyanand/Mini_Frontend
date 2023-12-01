@@ -1,0 +1,65 @@
+.video-container-styles {
+  height: 50%; /* Set video section height to 50% */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative; /* Change to relative positioning */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlist-queue-styles {
+  box-shadow: 0px 0px 1px white;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  background-color: #212836;
+  position: absolute;
+  top: 0;
+  left: 1050px;
+}
+
+.playlist-queue-item-styles {
+  margin: 5px;
+  cursor: pointer;
+  min-width: 60px;
+  max-width: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid transparent;
+  height: 300px;
+}
+
+.current-playing-video-styles {
+  box-shadow: 0px 0px 2px white;
+  transition: 0.2s;
+}
+
+.thumbnail-styles {
+  width: 100%;
+  height: 100%;
+}
+
+.video-styles {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 549px) {
+  .video-container-styles {
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: -6px;
+  height: 100%;
+}
